@@ -21,7 +21,7 @@ CSV_FILE = ''
 MODEL_PATH = str((BASE_DIR / "model.pth").resolve())
 
 # Round start frames
-ROUND1_START = 950
+ROUND1_START = 1
 ROUND2_START = 2400
 ROUND3_OFFSET_AFTER_R2 = 2300     # When r2 is found, search r3 from (r2 + this)
 ROUND3_EARLY_FALLBACK = 500       # Try 500 frames earlier if round 3 not found
@@ -472,3 +472,4 @@ def main(video_folder, model_path, device=DEVICE, output_csv=OUTPUT_CSV,
 if __name__ == "__main__":
     print(f"Device: {DEVICE} | Threshold: {CONFIDENCE_THRESHOLD}")
     main(VIDEO_FOLDER, MODEL_PATH)
+
