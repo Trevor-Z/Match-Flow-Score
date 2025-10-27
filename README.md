@@ -30,4 +30,4 @@ Instructions:
 
 When it finishes processing, it will show the MF Score and also generate a .csv report with details in the output folder.
 
-Extracting the health-bar data visually is not a flawless process right now, but it mostly works if the video has all needed parts, has enough resolution (preferably 1080p) and is not overly compressed.
+Extracting the health-bar data visually is not a flawless process right now, but it mostly works if the video has all needed parts, has enough resolution (preferably 1080p) and is not overly compressed. The choice of stage or any visual obstruction of the health bar at KO might might have adverse effects, though.
