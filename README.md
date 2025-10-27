@@ -22,7 +22,7 @@ This is a proof-of-concept scoring system and tool, I make no claims about its a
 
 Instructions:
 
-1 – Record one or more replay matches without interruptions or skips from anywhere before the “Fight” sign appears on the first round until the moment the “xyz wins” sign appears on the final round. A sample video is provided.
+1 – Record one or more replay matches without interruptions or skips from anywhere before the “Fight” sign appears on the first round until the moment the “xyz wins” sign appears on the final round. Input History Display must be turned on for both players. A sample video is provided.
 
 2 – Load a video or a folder with several of these videos.
 
@@ -30,4 +30,4 @@ Instructions:
 
 When it finishes processing, it will show the MF Score and also generate a .csv report with details in the output folder.
 
-Extracting the health-bar data visually is not a flawless process right now, but it mostly works if the video has all needed parts, has the right resolution (1080p) and is not overly compressed.
+Extracting the health-bar data visually is not a flawless process right now, but it mostly works if the video has all needed parts, has enough resolution (preferably 1080p) and is not overly compressed.
