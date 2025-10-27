@@ -54,7 +54,7 @@ SETTINGS = {
     # Round-end detection side selection (auto mirrors EndingFinder default)
     "side": "auto",
     
-    "round1_start": 950,
+    "round1_start": 1,
     "round2_start": 2400,
     "round3_offset_after_r2": 2300, # When r2 was found, search r3 from (r2 + this)
     "round3_early_fallback": 500, # Try 500 frames earlier if round 3 not found
