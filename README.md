@@ -24,7 +24,7 @@ It's ugly. Dammit, Jim, I'm a psychologist, not a programmer.
 
 Instructions:
 
-1 – Record one or more replay matches without interruptions or skips from anywhere before the “Fight” sign appears on the first round until the moment the “xyz wins” sign appears on the final round. Input History Display must be turned on for both players. A sample video is provided.
+1 – Record one or more replay matches without interruptions or skips from anywhere before the “Fight” sign appears on the first round until the moment the “xyz wins” sign appears on the final round. Input History Display must be turned on for both players. A sample video is provided with the release.
 
 2 – Load a video or a folder with several of these videos.
 
