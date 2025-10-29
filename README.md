@@ -1,6 +1,6 @@
 From SF6 replay video data, we compute a 100-point Match Flow Score showing how even (a win with few points) or lopsided (a win with many points) a round was. Or even whether the losing side actually played better and only lost because it was a very close call (a win with negative points).
 
-The information used: round duration, winner’s health at KO (or margin at timeout), time each player went without being hit, and the number of times each was hit.
+The information used: round duration, winner’s health at KO (or margin at timeout), how long each player went without being hit, and the number of times each one was hit.
 
 These become four weighted terms (see match_flow_score_from_series in Match_Flow_Score_tool.py):
 
@@ -12,11 +12,11 @@ streak_term: Rewards good defense. Find the longest damage-free streak for each 
 
 tempo_term: Rewards offensive pressure. Count how many times each side’s health dropped, the side that scored more hits gets credit.
 
-Their sum is the final match flow score. Default weights are 0.35, 0.35, 0.20, 0.10, but this is a fairly arbitrary choice.
+Their sum is the final match flow score. Default weights are 0.35, 0.35, 0.20, 0.10, but these are fairly arbitrary choices.
 
 Streak and tempo are not perfect metrics, because in extreme cases one can two-touch kill at the very end of the round while taking six jabs evenly spaced throughout.
 
-This is a proof-of-concept tool, I make no claims about its accuracy or reliability. The parts were taken from the already brittle research pipeline created for another project, Frankensteined together with vibecode, and had a basic GUI slapped on top for minimal practicity. Everything is provided as-is. 
+This is a proof-of-concept tool, I make no claims about its accuracy or reliability. It was made with parts taken from another project's already brittle pipeline, Frankensteined together with vibecode, and had a basic GUI slapped on top for minimal ease of use.
 
 Dammit, Jim, I'm a psychologist, not a programmer.
 
